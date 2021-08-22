@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Chalo Dilli</title>
+</head>
+
+<body>
+
+
+    <!----------------------------------navbar------------------------------------------>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">Chalo Dilli</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------carousel------------------------------------------------------------->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Jama Masjid</h5>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Red Fort</h5>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Humayun's Tomb</h5>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!---------------------places to visit--------------------------------------->
+    <div class="places">
+        <h3>Places to visit in Dilli</h3>
+        <hr style="font-weight: 100px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <a href="jamamasjid.html">
+                    <img src="resources/images/1.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Jama Masjid</h5>
+                    <p class="card-text">It was built by the Mughal Emperor Shah Jahan between 1650 and 1656 at a
+                        cost
+                        of one million rupees, and was inaugurated by Imam Syed Abdul Ghafoor Shah Bukhari from
+                        Bukhara.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="lotus temple.html">
+                    <img src="resources/images/2.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Lotus Temple</h5>
+                    <p class="card-text">The temple was dedicated 23–27 December 1986 with a gathering of 8,000
+                        Baháʼís
+                        from 107 countries, including some 4,000 Baháʼís from 22 provinces in India. On January 1
+                        the
+                        temple was opened to the public and more than 10,000 people visited that first day.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="jantarmantar.html">
+                    <img src="resources/images/3.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Jantar Mantar</h5>
+                    <p class="card-text">The Jantar Mantar is an equinoctial sundial, consisting of a gigantic
+                        triangular gnomon with the hypotenuse parallel to the Earth's axis. On either side of the
+                        gnomon
+                        is a quadrant of a circle, parallel to the plane of the equator.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="qutbminar.html">
+                    <img src="resources/images/8.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Qutb Minar</h5>
+                    <p class="card-text">The Qutb Minar, also spelled as Qutub Minar and Qutab Minar, is a minaret and
+                        "victory tower" that forms part of the Qutb complex, a UNESCO World Heritage Site in the
+                        Mehrauli area of New Delhi, India.[3][4] The height of Qutb Minar is 72.5 meters, making it the
+                        tallest minaret in the world built of bricks. The tower tapers, and has a 14.3 metres (47
+                        feet) base diameter, reducing to 2.7 metres (9 feet) at the top of the peak. It contains a
+                        spiral staircase of 379 steps
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="visit">
+        <button type="button" class="btn btn-outline-primary"> Visit more places</button>
+
+    </div>
+
+
+
+    <!--------------------------------------shopping--------------------------------------------->
+
+    <div class="places">
+        <h3>Shopping Places in Dilli</h3>
+        <hr style="font-weight: 100px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="resources/images/9.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Dilli Haat</h5>
+                    <p class="card-text">Dilli Haat is a paid-entrance open-air market, food plaza, and craft bazaar
+                        located in Delhi. The area is run by Delhi Tourism and Transportation Development Corporation
+                        (DTTDC), and unlike the traditional weekly market, the village Haat, Dilli Haat is permanent
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="resources/images/10.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Chandni Chowk</h5>
+                    <p class="card-text">It was built in the 17th century by Mughal Emperor of India Shah Jahan and
+                        designed by his daughter Jahanara. The market was once divided by canals (now closed) to reflect
+                        moonlight and remains one of India's largest wholesale markets.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="resources/images/11.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Paharganj</h5>
+                    <p class="card-text">The area is popular with low-budget travellers for the cheap lodgings, however,
+                        Paharganj has a poor record regarding safety for women, both domestic and international
+                        tourists, with Indian authorities encouraging tourists to refrain from the area, since it is an
+                        epicenter of the city's drug crime, sexual assaults and sex trade.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="resources/images/12.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Sarojini Nagar</h5>
+                    <p class="card-text">Sarojini Nagar is a neighbourhood in South West Delhi district of Delhi, India.
+                        It was one of the sites of the 29 October 2005 Delhi bombings. It is close to Safdarjung
+                        Airport, starting 2010, it is serviced by the Sarojini Nagar on the newly constructed
+                        underground station on the Pink Line of Delhi Metro
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="visit">
+        <button type="button" class="btn btn-outline-primary"> Visit more places</button>
+    </div>
+
+
+    <!-----------------museum-------------------------------------------------------------------------->
+
+
+    <div class="places">
+        <h3>Museum in Dilli</h3>
+        <hr style="font-weight: 100px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="resources/images/13.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Indian Air Force Museum</h5>
+                    <p class="card-text">The museum was the only one of its kind in India until the opening of the Naval
+                        Aviation Museum in Goa in 1998 and HAL Aerospace Museum in Bangalore in 2001. It stores the rich
+                        history of IAF.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="resources/images/14.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">National Rail Museum</h5>
+                    <p class="card-text">he museum was inaugurated on 1 February 1977. The museum spans over an area of
+                        over 11 acres and the indoor gallery comprises an octagonal building which houses six display
+                        galleries and a large open area is laid out to simulate the atmosphere of a railway yard
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="resources/images/15.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">National Science Centre</h5>
+                    <p class="card-text">The National Science Centre established in 1992, is a science museum in Delhi,
+                        India. It is part of the National Council of Science Museums (NCSM), an autonomous body under
+                        India's Ministry of Culture. It stands close to Gate no 1, of Pragati Maidan overlooking the
+                        Purana Qila.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="#">
+                    <img src="resources/images/16.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">National Philatelic Museum</h5>
+                    <p class="card-text">The Museum has displayed number of frames in which exhibits of Post
+                        Independence era stamps can impress any Visitor with its charm. The frames have been arranged
+                        beautifully in different sections like section for Sheetlets, section for different themes,
+                        Section for Stamps from different countries.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="visit visit-expand-sm">
+        <button type="button" class="btn btn-outline-primary"> Visit more places</button>
+    </div>
+
+
+    <!---------------------------------------------------------------------------------------------->
+
+    <section class="section-form">
+        <div class="row" style="text-align: center; font-family:inherit; font-weight: 80; padding: 70px;">
+            <h2>WE'RE HAPPY TO HEAR FROM YOU</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form" id="contact">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends" selected="">Friends</option>
+                            <option value="search">Search Engine</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="visit">
+                    <button type="button" class="btn btn-outline-primary">Send it</button>
+                </div>
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">ios App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://ads.twitter.com/login"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/?hl=en"><i
+                                class="ion-social-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="text-align: center; color: ivory;">
+            <p>
+                Copyright © 2021 by Chalo Dilli. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
